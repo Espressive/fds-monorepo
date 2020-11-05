@@ -17,7 +17,12 @@ const data = generateFakeReport9(200, from_date, to_date).map(
 );
 
 const dataConfig = {
-  actions: [],
+  actions: [
+    {
+      content: 'View',
+      module: 'button',
+    },
+  ],
   display: [
     {
       attribute: 'date',

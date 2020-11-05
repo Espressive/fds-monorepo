@@ -3,7 +3,6 @@ import { Dropdown, Header } from 'semantic-ui-react';
 
 import JsonPlaceholder from '../../../placeholders/JsonPlaceholder';
 
-import './TableStyleTest.module.scss';
 import { generateFakeEmployees } from '../../../lib/mock/generateFakeEmployees';
 import Table from '..';
 

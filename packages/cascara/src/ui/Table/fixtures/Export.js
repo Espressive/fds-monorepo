@@ -1,7 +1,6 @@
 import React, { PureComponent } from 'react';
 import { Dropdown, Header } from 'semantic-ui-react';
 
-import './TableStyleTest.module.scss';
 import { generateFakeEmployees } from '../../../lib/mock/generateFakeEmployees';
 import Table from '..';
 

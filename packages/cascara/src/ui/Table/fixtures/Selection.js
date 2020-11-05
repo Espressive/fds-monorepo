@@ -1,6 +1,5 @@
 import React, { useContext } from 'react';
 
-import './TableStyleTest.module.scss';
 import { generateFakeEmployees } from '../../../lib/mock/generateFakeEmployees';
 
 import TableContext, { TableContextProvider } from '../context';
