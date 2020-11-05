@@ -14,7 +14,11 @@ const TableHeader = () => {
 
   if (dataConfig.actions && dataConfig.actions.length) {
     headerCells.push(
-      <th className={styles.HeadCell} colSpan={dataConfig.actions.length} />
+      <th
+        className={styles.HeadCell}
+        colSpan={dataConfig.actions.length}
+        key='actions'
+      />
     );
   }
 
