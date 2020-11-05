@@ -22,6 +22,10 @@ const dataConfig = {
       content: 'View',
       module: 'button',
     },
+    {
+      content: 'Edit',
+      module: 'edit',
+    },
   ],
   display: [
     {

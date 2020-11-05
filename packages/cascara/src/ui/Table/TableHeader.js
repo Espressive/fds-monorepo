@@ -13,7 +13,9 @@ const TableHeader = () => {
   ));
 
   if (dataConfig.actions && dataConfig.actions.length) {
-    headerCells.push(<th key={'action-bar-slot'} />);
+    headerCells.push(
+      <th className={styles.HeadCell} colSpan={dataConfig.actions.length} />
+    );
   }
 
   return (
